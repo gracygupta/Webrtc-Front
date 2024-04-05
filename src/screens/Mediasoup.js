@@ -39,8 +39,8 @@ const VideoChatApp = () => {
   // const [device, setDevice] = useState();
   // const [rtpCapabilities, setRtpCapabilities] = useState();
   useEffect(() => {
-    // const newSocket = io(`${SERVER_DEPLOYMENT}`);
-    const newSocket = io(`${SERVER_LOCALHOST}`);
+    const newSocket = io(`${SERVER_DEPLOYMENT}`);
+    // const newSocket = io(`${SERVER_LOCALHOST}`);
     // const newSocket = io("https://video.api.blockverse.tech");
     setSocket(newSocket);
 
