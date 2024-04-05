@@ -1,4 +1,4 @@
-exports.SERVER_DEPLOYMENT = "https://video.api.blockverse.tech";
+exports.SERVER_DEPLOYMENT = "http://13.127.35.65:4000";
 exports.CLIENT_DEPLOYMENT = "https://videocalling.blockverse.tech";
 exports.SERVER_LOCALHOST = "http://localhost:4000";
 exports.CLIENT_LOCALHOST = "http://localhost:3000";
